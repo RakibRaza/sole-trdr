@@ -1,0 +1,150 @@
+//Font familys
+$default-font-family:'Manrope',
+sans-serif;
+$primary-font-family:'Inter',
+sans-serif;
+$secondary-font-family:'DM Sans',
+sans-serif;
+
+// Font Size
+$h2        :32px;
+$h3        :24px;
+$h4        :20px;
+$h5        :16px;
+$body-text :14px;
+$font-small:12px;
+
+// Color
+$primary-color   :#F84233;
+$secondary-color :#5E38FF;
+$success-color   :#20C9AC;
+$info-color      :#36DAFE;
+$warning-color   :#FFA043;
+$orange-color    :#FF7A68;
+$black-color     :#000000;
+$white-color     :#ffffff;
+$red-color       :#F40000;
+$green-color     :#4FBF67;
+$blue-color      :#5E38FF;
+$dark            :#2E2C34;
+$gray-999        :#999999;
+
+// RGBA Colors
+$success-transparent-color :rgba(32, 201, 172, 0.1);
+$warning-transparent-color :rgba(255, 160, 67, 0.1);
+$info-transparent-color    :rgba(54, 218, 254, 0.1);
+$green-transparent-color   :rgba(75, 159, 71, 0.1);
+$blue-transparent-color    :rgba(0, 101, 255, 0.1);
+$red-transparent-color     :rgba(255, 63, 63, 0.1);
+
+// Items color
+$id-color                 :#0052CC;
+$sidebar-color            :#111111;
+$sidebar-text-color       :#808191;
+$menu-active-color        :#292929;
+$table-dark-color         :#171717;
+$table-col-text-color     :#808191;
+$table-title-bg-color     :#F9FAFA;
+$search-bg-color          :#F9FAFA;
+$search-placeholder-color :#C4C4C4;
+$body-bg-color            :#E5E5E5;
+$text-color               :#84818A;
+$modal-border-color       :#EDEDED;
+$order-id-area-bg         :#F8FAFE;
+$default-color            :#F0F1F7;
+$btn-border-color         :#808191;
+
+
+// mixins
+@mixin d_flex_right {
+    display        : flex;
+    align-items    : center;
+    justify-content: flex-end;
+}
+
+@mixin status_style {
+    background   : $warning-transparent-color;
+    color        : $warning-color;
+    padding      : 8px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+@mixin status_style2 {
+    background   : $blue-transparent-color;
+    color        : $blue-color;
+    padding      : 8px;
+    border-radius: 5px;
+}
+
+
+@mixin modal_btn {
+    min-width     : 215px;
+    height        : 45px;
+    border-radius : 10px;
+    line-height   : 45px;
+    text-align    : center;
+    text-transform: capitalize;
+    font-family   : $secondary-font-family;
+    font-size     : $body-text;
+    font-weight   : 700;
+    padding       : 0;
+
+    &:focus {
+        box-shadow: none;
+        outline   : none;
+    }
+}
+
+@mixin dsplay_flex_space_between {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+@mixin traking_id {
+    background   : $success-transparent-color;
+    padding      : 8px;
+    color        : $success-color;
+    border-radius: 5px;
+}
+
+@mixin option_btn {
+    box-shadow   : 0 0 5px 0 rgba(0, 0, 0, 0.12);
+    border       : none;
+    height       : 48px;
+    border-radius: 5px;
+}
+
+@mixin option_btn_h_w {
+    height: 48px;
+    width : 48px;
+}
+
+@mixin position_fixed {
+    position: fixed;
+    top     : 0;
+    left    : 0;
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content
+    }
+
+    &::-moz-placeholder {
+        @content
+    }
+
+    &:-ms-input-placeholder {
+        @content
+    }
+
+    &::-webkit-input-placeholder {
+        @content
+    }
+
+    &::placeholder {
+        @content
+    }
+}

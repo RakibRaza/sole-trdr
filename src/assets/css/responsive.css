@@ -1,0 +1,389 @@
+/*-------------- Start device screen 1440 --------------*/
+
+@media screen and (max-width: 1440px) {}
+
+
+/*-------------- Start device screen 1366 --------------*/
+
+@media screen and (max-width: 1366px) {}
+
+
+/*-------------- Start device screen 1200 --------------*/
+
+@media screen and (max-width: 1200px) {
+    #header {
+        margin-left: 250px !important;
+        padding    : 27px 15px !important;
+    }
+
+    .sidebar {
+        max-width: 250px !important;
+        padding  : 15px !important;
+    }
+
+    .sidebar .metismenu li a {
+        padding: 15px;
+    }
+
+    .main-wrapper {
+        padding    : 30px 15px !important;
+        margin-left: 250px !important;
+    }
+
+    .theme-card {
+        padding: 15px !important;
+    }
+
+    .order-table tbody tr th,
+    .order-table tbody tr td {
+        font-size: 12px !important;
+    }
+}
+
+
+/*-------------- Start device screen 1199 --------------*/
+
+@media screen and (max-width: 1199px) {
+    #header {
+        padding    : 25px 15px !important;
+        margin-left: 250px !important;
+    }
+
+    .main-wrapper {
+        padding    : 15px !important;
+        margin-left: 250px !important;
+        margin-top : 110px !important;
+    }
+
+    .sidebar {
+        max-width: 250px !important;
+        padding  : 30px 15px !important;
+    }
+
+    .theme-card {
+        padding: 15px !important;
+    }
+
+    .order-table thead tr td,
+    .order-table thead tr th {
+        padding  : 15px 10px !important;
+        font-size: 12px !important;
+    }
+
+
+
+}
+
+
+/*-------------- Start device screen 1024 --------------*/
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        left    : -250px !important;
+        position: relative;
+    }
+
+    #header {
+        padding-left: 100px !important;
+        margin-left : 0 !important;
+        z-index     : 9;
+        position    : relative;
+    }
+
+    .main-wrapper {
+        margin-left: 0 !important;
+    }
+
+    .menu-toggler {
+        visibility: visible !important;
+        opacity   : 1 !important;
+    }
+
+    .sidebar-toggle {
+        left   : 0 !important;
+        z-index: 999999 !important;
+    }
+
+    .theme-logo img {
+        width: 90px;
+    }
+
+    .siderbar-close {
+        display: block !important;
+    }
+
+
+}
+
+
+/*-------------- Start device screen 991 --------------*/
+
+@media screen and (max-width: 991px) {
+
+    .buttons-area,
+    .quality-control-area,
+    .details-modal .modal-content .modal-footer,
+    .details-modal .modal-content .modal-body .product-details-area .order-id-area,
+    .details-modal .modal-content .modal-body .product-status,
+    .details-modal .modal-content .modal-body .product-details,
+    .details-modal .modal-content .modal-header {
+        padding: 30px !important;
+    }
+
+    .details-modal .modal-content .modal-footer {
+        padding-top: 0, important !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    .modal-dialog {
+        max-width: 700px;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon li::before {
+        width: 80px !important;
+    }
+
+}
+
+
+/*-------------- Start device screen 768 --------------*/
+
+@media screen and (max-width: 768px) {
+    .short-btn .btn {
+        font-size: 14px !important;
+    }
+
+    .option-bar ul.options-list {
+        justify-content: flex-start !important;
+    }
+
+    .option-bar ul.options-list li .search-form .form-control {
+        width: 385px !important;
+    }
+}
+
+/*-------------- Start device screen 768 --------------*/
+
+@media screen and (max-width: 767px) {
+
+    #header {
+        padding-left: inherit !important;
+    }
+
+    #header .menu-toggler {
+        top: 30% !important;
+    }
+
+    #header .header-right li:not(:last-child) {
+        margin-right: 30px !important;
+    }
+
+    .main-wrapper {
+        margin-top: 180px !important;
+    }
+
+    .product-details-area .header-two {
+        display: block;
+    }
+
+    .product-details-area .header-two h2 {
+        margin-bottom: 10px;
+    }
+}
+
+
+/*-------------- Start device screen 680 --------------*/
+
+@media screen and (max-width: 680px) {
+    .option-bar ul.options-list li .search-form .form-control {
+        width: 290px !important;
+    }
+}
+
+
+/*-------------- Start device screen 576 --------------*/
+
+@media screen and (max-width: 576px) {
+    #header .header-right li:not(:last-child) {
+        margin-right: 15px !important;
+    }
+
+    #header .menu-toggler {
+        left: 15px !important;
+    }
+
+    .option-list,
+    .tags-traking,
+    .delevery-address,
+    .product-details-status,
+    .buttons-area,
+    .quality-control-area,
+    .details-modal .modal-content .modal-footer,
+    .details-modal .modal-content .modal-body .product-details-area .order-id-area,
+    .details-modal .modal-content .modal-body .product-status,
+    .details-modal .modal-content .modal-body .product-details,
+    .details-modal .modal-content .modal-header {
+        padding: 15px !important;
+    }
+
+    .delevery-address .icon {
+        margin-left  : unset !important;
+        margin-bottom: 10px;
+    }
+
+    .option-bar ul.options-list li:first-child {
+        margin-right: 0 !important;
+        width       : 100%;
+    }
+
+    .option-bar ul.options-list li .search-form .form-control {
+        width: 100% !important;
+    }
+
+    .option-bar ul.options-list {
+        flex-wrap: wrap;
+    }
+
+}
+
+/*-------------- Start device screen 575 --------------*/
+
+@media screen and (max-width: 575px) {
+    .details-modal .modal-content .modal-body .product-details .product-details-info .title {
+        display: block !important;
+    }
+
+    .details-modal .modal-content .modal-body .product-details .product-details-info .title h3 {
+        margin-top   : 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+
+    .details-modal .modal-content .modal-body .product-status {
+        position: relative;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon {
+        position: absolute;
+        top     : 35px;
+        left    : 30px;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon li::before {
+        display: none !important;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-title li {
+        padding-left: 30px;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon,
+    .details-modal .modal-content .modal-body .product-status .status-title {
+        display: block !important;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon li:not(:last-child),
+    .details-modal .modal-content .modal-body .product-status .status-title li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon li:first-child {
+        margin-left: 0 !important;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon li:last-child {
+        margin-right: 0 !important;
+    }
+
+    .details-modal .modal-content .modal-body .product-status .status-icon li i {
+        height     : unset !important;
+        width      : unset !important;
+        line-height: unset !important;
+        text-align : inherit !important;
+        font-size  : 14px !important;
+        background : transparent !important;
+        color      : #4FBF67 !important;
+    }
+
+
+}
+
+
+/*-------------- Start device screen 425 --------------*/
+
+@media screen and (max-width: 425px) {
+    .details-modal .modal-content .modal-header {
+        display: block;
+    }
+
+    .details-modal .modal-content .modal-header .header-right .btn-close {
+        position: absolute;
+        top     : 50px;
+        right   : 30px;
+    }
+
+    .details-modal .modal-content .modal-header .header-right .tracking-id {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .details-modal .modal-content .modal-body .order-id-area {
+        display: block !important;
+    }
+
+    .details-modal .modal-content .modal-body .order-id-area h2 {
+        margin-bottom: 10px;
+    }
+
+    .details-modal .modal-content .modal-body .order-id-area .tracking-id {
+        text-align: center;
+    }
+
+    .modal-footer {
+        display: block;
+    }
+
+    .details-modal .modal-content .modal-footer .btn {
+        min-width: 100% !important;
+    }
+
+    .option-bar ul.options-list li .short-btn {
+        width: 245px !important;
+    }
+
+
+
+}
+
+
+/*-------------- Start device screen 375 --------------*/
+
+@media screen and (max-width: 375px) {
+    .option-bar ul.options-list li .short-btn {
+        width: 195px !important;
+    }
+}
+
+
+/*-------------- Start device screen 320 --------------*/
+
+@media screen and (max-width: 320px) {
+
+    .option-bar ul.options-list li .short-btn,
+    .option-bar ul.options-list li:nth-child(2) {
+        width: 100% !important;
+    }
+
+    .option-bar ul.options-list li:nth-child(2) {
+        margin-right : 0 !important;
+        margin-bottom: 15px;
+    }
+
+    .option-bar ul.options-list li .download-btn,
+    .option-bar ul.options-list li .reset-btn {
+        width: 125px !important;
+    }
+}
